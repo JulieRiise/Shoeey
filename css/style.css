@@ -113,14 +113,14 @@ article{
 
 
 h1{
-    front-size: 2rem;
+    font-size: 2rem;
     color: #BB8282;
     text-align: center;
 
 }
 
 h2{
-    front-size: 1.8rem;
+    font-size: 1.8rem;
     color:#E7CECE;
     background-color: #BB8282;
     justify-content: center;
@@ -135,7 +135,7 @@ h3{
 }
 
 h4{
-    front-size: 1.4rem;
+    font-size: 1.4rem;
     margin: 15px;
 }
 h5{
