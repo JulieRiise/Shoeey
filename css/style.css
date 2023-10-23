@@ -26,6 +26,10 @@ header nav div{
     gap: 1px; 
 }
 
+.forsidebilde{
+    width: 100%;
+}
+
 #category-box{
     margin-top: 15px;
   margin-bottom: 15px;
@@ -60,22 +64,7 @@ header nav div{
 }
 
 
-.produktbilder{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
 
-   
-}
-
-.produktbilder2{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
-
-
-}
 
 .fa-solid.fa-cart-shopping{
     --fa-display:block;
@@ -108,7 +97,7 @@ header{
     padding-bottom: 20px;
     
 }
-    
+
 
 main{
     text-align: center;
@@ -118,8 +107,6 @@ main{
 article{
     text-align:center;
     align-items: baseline;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-bottom: 20px;
     
 }
@@ -136,6 +123,7 @@ h2{
     front-size: 1.8rem;
     color:#E7CECE;
     background-color: #BB8282;
+    justify-content: center;
 }
    
 
@@ -144,7 +132,6 @@ h3{
     background-color: #BB8282;
     padding-top: 25px;
     padding-bottom: 25px;
-
 }
 
 h4{
@@ -227,20 +214,24 @@ nav a{
 }
 
 
-.default-flex h2{
-    flex-basis:100%;
 
 }
 
-.default-flex article{
-    flex-basis: 33%;
-    min-width: 300px;
+.default-flex-produkt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
 
 }
 
-.default-flex article img{
+.default-flex-produkt article img{
     width: 100%;
+    max-width: 500px;
 }
+
 
 
 
@@ -261,6 +252,10 @@ nav a{
 
 }
 
+.h2{
+    text-align: center;
+      
+}
 
 .Kundemedlemforside {
     margin-left: 160px;
@@ -271,7 +266,7 @@ margin-right: 200px;
 }
 
 .content-section{
-    margin-top: 0px;
+margin-top: 0px;
   margin-left: 500px;
   margin-right: 500px;
   margin-bottom: 30px;
